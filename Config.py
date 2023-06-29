@@ -17,11 +17,11 @@ if ENVIRONMENT:
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = 0
-    API_HASH = ""
-    BOT_TOKEN = ""
-    DATABASE_URL = ""
+    API_ID = 26670684
+    API_HASH = "60592bded0f25a9633a8133601f2c779"
+    BOT_TOKEN = "6157850456:AAECSQKBOrjcmF_mI9ngnltvsHqjV7TBOEk"
+    DATABASE_URL = "postgresql://devi218:apple@9450@localhost:5432/devi218"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = ""
+    MUST_JOIN = "@test94509"
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
